@@ -1,0 +1,27 @@
+.vending-machine {
+    display: flex;
+    align-items: center;                                                                                       
+    background-image:  url('/vending-machine.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%; 
+    height: 100vh;
+}
+.left-part{
+    position: absolute;
+    width: 30%;
+    height:30%;
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    left:5px;
+}
+.right-part{
+    position: absolute;
+    width: 30%;
+    height:30%;
+    right:5px;
+    font-weight: bold;
+    font-size: 35px;
+}

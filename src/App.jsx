@@ -9,7 +9,7 @@ import VendingMachine from "./VendingMachine";
 function App() {
   return (
     <>
-      <div>
+      <div className="main">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<VendingMachine />} />
